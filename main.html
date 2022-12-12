@@ -17,33 +17,39 @@
 		<form action="formdata.html" method="post">
 			<label for="name">Name:</label>
 			<input type="text" id="name" required> 
-			<br>
+			<br><br>
 			<label for="email">Email:</label>
 			<input type="email" id="email"> 
-			<br>
+			<br><br>
 			<label for="gender">Gender:</label><br>
 			<input type="radio" name="gender" id="gender" value="male" required>
 			<label for="male">Male</label>
 			<input type="radio" name="gender" id="gender" value="female">
 			<label for="female">Female</label>
-			<br>
+			<br><br>
 			<label for="carBrand">Select Car/s:</label><br>
-			<input type="checkbox" id="selectcars" name="BMW">
+			<input type="radio" name="selectCar" id="cars" value="BMW" required>
+			<label for="BMW">BMW</label><br>
+			<input type="radio" name="selectCar" id="cars" value="Audi">
+			<label for="Audi">Audi</label><br>
+			<input type="radio" name="selectCar" id="cars" value="Mercedez">
+			<label for="Mercedez">Mercedez</label>
+			<!-- <input type="checkbox" id="selectcars" name="BMW">
 			<label for="carBMW">BMW</label>
 			<input type="checkbox" id="selectcars" name="Audi">
 			<label for="carAudi">Audi</label>
 			<input type="checkbox" id="selectcars" name="Mercedez">
-			<label for="carMercedez">Mercedez</label>
-			<br>
+			<label for="carMercedez">Mercedez</label> -->
+			<br><br>
 			<label for="carage">Car Age:</label>
 			<input type="number" id="carage" required><span>Years</span>
-			<br>
+			<br><br>
 			<label for="dop">Date of Purchase:</label>
 			<input type="date" id="dop" required>
-			<br>
+			<br><br>
 			<label for="password">Password:</label>
 			<input type="password" id="password" required>
-			<br>
+			<br><br>
 			<button type="submit">Submit</button>
 		</form>
 	</main>
